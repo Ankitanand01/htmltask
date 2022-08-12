@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(198, 227, 227);
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        img {
+            height: 30px;
+            width: 80px;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>H1</h1> 
+    <h2>H2</h2> 
+    <h3>H3</h3> 
+    <h4>H4</h4> 
+    <h5>H5</h5> 
+    <h6>H6</h6> -->
+    <!-- <p>This is <i>Paragraph</i> <strong>one</strong>  this is ax<sup>2</sup>+bx   and this is CO<sub>2</sub></p> Comment Section-->
+    <a href="https://www.google.com">Visit Google</a>
+
+    <!-- <img src="https://th.bing.com/th/id/OIP.S65bqQsqcc2O_kbaPn51aQHaB2?pid=ImgDet&rs=1" alt="no img"> -->
+
+    <!-- TABLE -->
+    <table>
+        <tr>
+            <th>S.no</th>
+            <th>name</th>
+            <th>Technology</th>
+            <th>Team</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ankit</td>
+            <td>React</td>
+            <td>Pro Dev</td>
+            <td><img src="https://th.bing.com/th/id/OIP.S65bqQsqcc2O_kbaPn51aQHaB2?pid=ImgDet&rs=1" alt="no img"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ankur</td>
+            <td colspan="2">Angular</td> <!-- used colspan -->
+            <td>Database</td>
+            <td><img src="https://th.bing.com/th/id/OIP.S65bqQsqcc2O_kbaPn51aQHaB2?pid=ImgDet&rs=1" alt="no img"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Anand</td>
+            <td>React</td>
+            <td>Digops</td>
+            <td><img src="https://th.bing.com/th/id/OIP.S65bqQsqcc2O_kbaPn51aQHaB2?pid=ImgDet&rs=1" alt="no img"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Aman</td>
+            <td>C</td>
+            <td>Programming</td>
+            <td><img src="https://th.bing.com/th/id/OIP.S65bqQsqcc2O_kbaPn51aQHaB2?pid=ImgDet&rs=1" alt="no img"></td>
+
+    </table>
+    <!--LISTS  -->
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Kiwi</li>
+        <li>Coconut</li>
+    </ol>
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Kiwi</li>
+        <li>Coconut</li>
+    </ul>
+
+    <!-- BLOCK AND INLINE -->
+    <h1>Block Element</h1>
+    <span>Inline element</span>
+
+    <!-- CLASS AND ID -->
+    <h1 class="heading1" id="h1">Example of class and ID</h1>
+
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+            browser today!</p>
+    </article>
+
+    <!-- DAY 2 Task -->
+
+
+    <!-- forms -->
+    <div>
+        <form action="#" style="border:2px solid black; padding:10px">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required><br /><br />
+
+            <label for="email">Email:-</label>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com" required><br /><br />
+
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" placeholder="Enter your password" required><br /><br />
+
+            <label for="dob">Date of Birth:-</label>
+            <input type="date" name="dob" id="dob"><br /><br /><label for=""></label>
+
+            <label>Gender:-</label>
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female
+            <input type="radio" name="gender" id="">Others<br /><br />
+
+            <label>Language Known:-</label>
+            <input type="checkbox" name="" id="">HTML
+            <input type="checkbox" name="" id="">css
+            <input type="checkbox" name="" id="">Python
+            <input type="checkbox" name="" id="">Javascript
+            <input type="checkbox" name="" id="">Java<br /><br />
+            <label>Rate yourself</label>
+            <input type="range" name="rate" id=""><br /><br />
+
+            <label>Choose your fav car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br /><br />
+
+            <label>Upload a document:-</label>
+            <input type="file" name="" id=""><br /><br />
+
+            <label>Any Question</label>
+            <textarea name="que" id="" cols="40" rows="5"></textarea><br /><br />
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit Form">
+            <button>Submit me</button>
+        </form><br /><br />
+    </div>
+    <!-- Multimedia -->
+
+    <audio controls src="#"></audio><br /><br />
+
+    <video controls poster="/WELCOME.png" src="/videoplayback.mp4" width="500px"></video><br /><br />
+
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/hNyvfsTSBM0" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe><br /><br />
+</body>
+
+</html>
